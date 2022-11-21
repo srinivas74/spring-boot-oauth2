@@ -1,0 +1,17 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: ################################
+            client-secret: ############################
+            scope: profile
+          google:
+            client-id: ###########################
+            client-secret: ########################
+            scope:
+              - openid
+              - profile
+            
+            
